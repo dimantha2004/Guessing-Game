@@ -9,7 +9,7 @@ function Guess() {
 
     if (chances > 0) {
         if (randomnumber === userinput) {
-            winorloss.innerHTML = "YOU WIN THE GAME!";
+            winorloss.innerHTML = "YOU WIN THE GAME...!";
             lowhigher.innerHTML = "Guessing number is correct...!";
         } else {
             chances--;
@@ -22,7 +22,7 @@ function Guess() {
         }
         
         if (chances === 0 && randomnumber !== userinput) {
-            winorloss.innerHTML = "GAME OVER! You've run out of chances.";
+            winorloss.innerHTML = "GAME OVER ! Out of chances...";
             
         }
     }
